@@ -1,0 +1,20 @@
+.footer {
+	padding: 24px 0;
+	margin-top: 88px;
+
+	@include mobile {
+		margin-top: 24px;
+		padding: 8px 0;
+	}
+
+	background-color: #000;
+}
+
+.footer__copyright {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 180%;
+	text-transform: capitalize;
+	color: var(--neutral-graycbcbcb);
+}

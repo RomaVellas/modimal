@@ -1,0 +1,37 @@
+.icons-wrapper {
+	padding: 30px 0;
+	display: flex;
+	column-gap: 30px;
+}
+
+.icon {
+	fill: transparent;
+	stroke: transparent;
+	width: 24px;
+	height: 24px;
+}
+
+.icon--search {
+	fill: #0C0C0C;
+}
+
+.icon--favorite {
+	stroke: #0C0C0C;
+	fill: #fff;
+}
+
+.icon--bag {
+	fill: #0C0C0C;
+}
+
+.icon--person {
+	fill: #0C0C0C;
+}
+
+.icon--menu {
+	fill: #0C0C0C;
+}
+
+.icon--arrow-down {
+	fill: #0C0C0C;
+}
